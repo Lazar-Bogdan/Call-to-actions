@@ -29,7 +29,7 @@
 }
 
 .cta-img {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), var(--photo-url), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), var(--photo-url), var(--light-grey) 50% / cover no-repeat;
     -webkit-backdrop-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
@@ -45,7 +45,7 @@
 }
 
 .cta-img2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), var(--background-url), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), var(--background-url), var(--light-grey) 50% / cover no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: 58px;
@@ -93,7 +93,7 @@ p {
         display: flex;
         flex-direction: column;
         width: unset;
-        height: 100%;
+        height: 1100px;
         gap: 32px;
     }
 
@@ -119,5 +119,13 @@ p {
         justify-content: center;
         align-items: center;
         gap: 10px;
+    }
+
+    .cta-img {
+        width: 363px;
+    }
+
+    .cta-img2 {
+        width: 363px;
     }
 }

@@ -35,19 +35,22 @@ h1 {
 @media(max-width: 640px) {
 
     .cta-image {
-        width: 100%;
+        width: 427px;
         height: 343px;
     }
 
     .content {
         width: unset;
-        padding-right: 24px;
-        padding-left: 24px;
     }
 
+    h1 {
+        width: 395px;
+        height: auto;
+    }
     .content > button {
-        width: 100%;
-
+        width: 395px;
+        padding-right: 24px;
+        padding-left: 24px;
     }
     
 }

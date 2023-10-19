@@ -73,11 +73,21 @@ p {
     }
 
     .cta-buttons > button {
-        width: 220px;
+        width: 169.5px;
         height: 56px;
         flex: 1 0 0;
         justify-content: center;
         align-items: center;
+    }
+
+    h1 {
+        width: 363px;
+        height: auto;
+    }
+
+    p {
+        width: 363px;
+        height: auto;
     }
 
 }
